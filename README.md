@@ -57,20 +57,20 @@ The drivers are all encapsulated by the application software, the main function 
 
 First, a measurement of the ambient room temperature:
 
-![alt text](https://github.com/nt-com/CTmeasure/doc/img/ambient.png)
+![alt text](/https://github.com/nt-com/CTmeasure/tree/master/doc/img/ambient.png)
 
 Regarding the accuracy of this measurement, I cannot give any better values. The datasheet of the MLX90614 says the accuracy is at 0.5 degrees celsius, with a resolution of 0.02 degrees celsius. However, the temperature seems plausible. I do not have any other means to measure the ambient temperature other than an old thermometer. 
 
 Second, a measurement of my forehead temperature. The first graphic shows the rise in temperature at the time I put my head against the sensor. The second graphic shows the temperature after about 20-30 seconds in front of the sensor. I was pretty close to the sensor through, however never touching it with my skin. The temperature of about 36 degrees C measured by the prototype was confirmed by a fever thermometer.
 
-![alt text](https://github.com/nt-com/CTmeasure/doc/img/temp1.png)
-![alt text](https://github.com/nt-com/CTmeasure/doc/img/temp2.png)
+![alt text](https://github.com/nt-com/CTmeasure/tree/master/doc/img/temp1.png)
+![alt text](https://github.com/nt-com/CTmeasure/tree/master/doc/img/temp2.png)
 
 ## Conclusion
 
 At the moment the prelimiary results show that the prototype works as intended. However, as the sections before describe, there is still work to be done. One major improvement is a better user interface, displaying the measured temperature more accurately in addition to the changes of the microcontroller software. (Better user interface means not hacked together in 3 minutes).
 
-In further iterations, the software should be ported to a cheaper, smaller microcontroller to reduce the cost of the system. Here, the expensive floating point calculations for converting the raw temperature values of the sensor to a human-readable decimal format can be left to the PC instead of the microcontroller.
+n further iterations, the software should be ported to a cheaper, smaller microcontroller to reduce the cost of the system. Here, the expensive floating point calculations for converting the raw temperature values of the sensor to a human-readable decimal format can be left to the PC instead of the microcontroller.
 
 ## Closing Remarks
 
