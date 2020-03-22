@@ -1,0 +1,7 @@
+"app/src/app.o"
+"drivers/src/gpio.o"
+"drivers/src/i2c.o"
+"drivers/src/usart.o"
+"src/main.o"
+"startup/startup_stm32.o"
+"startup/sysmem.o"
